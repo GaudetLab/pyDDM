@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=61.0"]
+requires = ["setuptools>=61.0", "wheel", ]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -8,7 +8,7 @@ version = "0.2.0"
 authors = [
   { name="Sam Berry", email="sberry@g.harvard.edu" },
 ]
-description = "Distance difference matrices and downstream analysis methods for comparing conformational schanges in proteins"
+description = "Distance difference matrices and downstream analysis methods for comparing conformational changes in proteins"
 readme = "README.md"
 license = { file="LICENSE" }
 requires-python = ">=3.7"
@@ -17,6 +17,10 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
+dependencies = ["numpy", "pandas", "scikit-learn", "scipy", "bioviper@git+https://github.com/samberry19/bioviper"]
+
+[tool.setuptools.packages.find]
+where = ["pyDDM"]
 
 [tool.isort]
 profile = "black"
