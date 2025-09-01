@@ -3,7 +3,7 @@ Code to build and analyze distance difference matrices (DDMs) to compare protein
 
 To quickly install this code, you can use pip:
 
-`pip install git+https://github.com/GaudetLab/pyDDM`
+`pip install git+https://github.com/GaudetLab/pyDDM.git`
 
 and then import as
 
