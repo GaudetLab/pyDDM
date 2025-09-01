@@ -20,7 +20,7 @@ classifiers = [
 dependencies = ["numpy", "pandas", "scikit-learn", "scipy", "bioviper@git+https://github.com/samberry19/bioviper"]
 
 [tool.setuptools.packages.find]
-where = ["pyDDM"]
+where = ["pyDDM*"]
 
 [tool.isort]
 profile = "black"
