@@ -17,7 +17,7 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
-dependencies = ["numpy", "pandas", "scikit-learn", "scipy", "bioviper@git+https://github.com/samberry19/bioviper"]
+dependencies = ["numpy", "pandas", "scikit-learn", "scipy", "seaborn", "bioviper@git+https://github.com/samberry19/bioviper"]
 
 [tool.setuptools.packages.find]
 where = ["pyDDM"]
