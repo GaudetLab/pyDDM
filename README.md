@@ -7,7 +7,7 @@ To quickly install this code, you can use pip:
 
 and then import as
 
-`import pyddm as ddm`
+`import pyDDM as ddm`
 
 For example usage as well as reproduction code for the manuscript, see the attached jupyter notebooks:
 
