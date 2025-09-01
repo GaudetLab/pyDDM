@@ -19,8 +19,9 @@ classifiers = [
 ]
 dependencies = ["numpy", "pandas", "scikit-learn", "scipy", "seaborn", "bioviper@git+https://github.com/samberry19/bioviper"]
 
-[tool.setuptools]
-packages = ["pyDDM"]
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["pyDDM*"]
 
 [tool.isort]
 profile = "black"
