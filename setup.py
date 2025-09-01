@@ -4,4 +4,4 @@ setup(name='pyddm',
       author='Sam Berry',
       author_email="sberry@g.harvard.edu",
       description = "",
-      py_modules=["pyddm"]
+      py_modules=["pyDDM"]
