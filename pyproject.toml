@@ -10,7 +10,7 @@ authors = [
 ]
 description = "Distance difference matrices and downstream analysis methods for comparing conformational changes in proteins"
 readme = "README.md"
-license = { file="LICENSE" }
+license = {text = "MIT"}
 requires-python = ">=3.7"
 classifiers = [
     "Programming Language :: Python :: 3",
@@ -19,8 +19,8 @@ classifiers = [
 ]
 dependencies = ["numpy", "pandas", "scikit-learn", "scipy", "seaborn", "bioviper@git+https://github.com/samberry19/bioviper"]
 
-[tool.setuptools.packages.find]
-where = ["pyDDM"]
+[tool.setuptools]
+packages = ["pyDDM"]
 
 [tool.isort]
 profile = "black"
