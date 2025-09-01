@@ -4,9 +4,4 @@ setup(name='pyddm',
       author='Sam Berry',
       author_email="sberry@g.harvard.edu",
       description = "",
-      py_modules=["pyddm"],
-      install_requires=[
-        'numpy',
-        'pandas',
-        'bioviper']
-      )
+      py_modules=["pyddm"]
